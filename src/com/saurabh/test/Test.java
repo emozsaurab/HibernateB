@@ -20,7 +20,7 @@ public class Test {
 	    user1.setUserName("saurabh");
 	    
 	    Address address = new Address();
-	    address.setCity("bangalore");
+	    address.setCity("bengaluru");
 	    
 	    user1.setAddress(address);
 	    

@@ -2,12 +2,19 @@ package com.saurabh.hibernate.dto;
 
 import javax.persistence.Embeddable;
 
-@Embeddable
+@Embeddable //use embeded in other class is optional
 public class Address {
 	
 	private String street;
 	private String city;
 	private String state;
+	private int pincode;
+	public int getPincode() {
+		return pincode;
+	}
+	public void setPincode(int pincode) {
+		this.pincode = pincode;
+	}
 	public String getStreet() {
 		return street;
 	}
